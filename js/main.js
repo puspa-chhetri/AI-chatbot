@@ -13,7 +13,7 @@ const chatHistory = [];
 const initialInputHeight = messageInput.scrollHeight;
 
 // API Setup
-const API_KEY = "AIzaSyDFbfw0OubgEEKpoCf6CYnL-fjJam5e3Fc";// paste your own API key 
+const API_KEY = // paste your own API key 
 const API_URL = `https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key=${API_KEY}`;
 
 const userData = {
